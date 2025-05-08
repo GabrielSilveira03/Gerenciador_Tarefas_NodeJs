@@ -37,6 +37,7 @@ cd seu-repositorio
 ```
 
 2. Instale o Node.js (caso não tenha)
+   
 Download Node.js: https://nodejs.org
 
 4. Execute o programa
@@ -68,19 +69,28 @@ Organização modular de código em arquivos separados
 📄 Exemplo de Uso
 
 Gerenciador de Tarefas
+
 1 - Adicionar Tarefa
+
 2 - Listar Tarefas
+
 3 - Deletar Tarefa
+
 4 - Alterar Status Tarefa
+
 5 - Pesquisar Tarefa por Palavra
+
 0 - Sair
 
 ---
 
 👨‍💻 Autor
 Nome: Gabriel da Costa Silveira
+
 Matrícula: 535676
+
 Curso: Engenharia de Computação
+
 Email: gabriel.costasilveira@alu.ufc.br
 
 ---
