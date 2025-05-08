@@ -1,73 +1,80 @@
-```markdown
-# 📋 Gerenciador de Tarefas (Terminal - Node.js)
+# 📋 Gerenciador de Tarefas - Node.js CLI
 
-Este é um projeto simples de gerenciamento de tarefas no terminal, desenvolvido com Node.js e focado em leitura e escrita de dados em arquivos JSON.
+Este é um projeto simples de **Gerenciador de Tarefas** feito com **Node.js**, utilizando o terminal para interação com o usuário. Ele permite cadastrar, listar, excluir, alterar o status e pesquisar tarefas por palavras-chave.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- ✅ **Adicionar tarefas** com nome, descrição, status e prazo estimado
-- 📋 **Listar todas as tarefas cadastradas**
-- ❌ **Deletar tarefas por ID**
-- 🔄 **Alterar o status** de uma tarefa (Pendente, Em Andamento, Concluída)
-- 🔍 **Pesquisar tarefas** por palavra-chave no nome
+- ✅ **Adicionar Tarefa**: Inclui nome, descrição e prazo em dias.
+- 📋 **Listar Tarefas**: Exibe todas as tarefas salvas com detalhes.
+- ❌ **Deletar Tarefa**: Remove uma tarefa com base no seu ID.
+- 🔁 **Alterar Status**: Modifica o status da tarefa entre `Pendente`, `Em Andamento` e `Concluída`.
+- 🔎 **Pesquisar Tarefa**: Filtra tarefas pelo nome, com base em qualquer palavra informada.
+- 📦 **Persistência de Dados**: As tarefas são salvas em um arquivo `.json` na pasta `dados/`.
 
 ---
 
-## 📁 Estrutura de Pastas
+## 🛠 Estrutura do Projeto
 
-```
-
-.
-├── index.js                # Arquivo principal que roda o menu e interações
+📁 projeto/
 ├── dados/
-│   └── tarefas.json        # Arquivo onde as tarefas são salvas
-└── modules/
-├── manipuladorArq.js   # Manipulação de leitura e escrita do JSON
-└── tarefasService.js   # Funções de serviço (lógica do sistema)
-
-````
+│ └── tarefas.json # Armazena as tarefas em formato JSON
+├── modules/
+│ ├── manipuladorArq.js # Leitura e escrita de tarefas no arquivo
+│ └── tarefasService.js # Lógica das funcionalidades
+├── index.js # Interface de menu pelo terminal (CLI)
 
 ---
 
-## 💻 Como executar
+## 💡 Como Usar
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/GabrielSilveira03/Gerenciador_Tarefas_NodeJs.git
-````
+### 1. Clone o repositório
 
-2. Navegue até a pasta do projeto:
-
-```bash
-cd nome-do-repositorio
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 ```
 
-3. Instale o Node.js (se ainda não tiver instalado):
-   [https://nodejs.org](https://nodejs.org)
+2. Instale o Node.js (caso não tenha)
+Download Node.js: https://nodejs.org
 
-4. Execute o projeto:
-
-```bash
+4. Execute o programa
+```
 node index.js
 ```
+O menu interativo será exibido no terminal.
 
 ---
 
-## 🛠 Tecnologias utilizadas
+📌 Requisitos
+Node.js (v14+ recomendado)
 
-* Node.js
-* Módulo `fs` (File System)
-* Módulo `path`
-* `readline` para interação no terminal
+Terminal com suporte a readline (praticamente todos)
 
 ---
 
-## 📌 Observações
+🧠 Conceitos Usados
+Manipulação de arquivos com fs
 
-* O arquivo `tarefas.json` será criado automaticamente dentro da pasta `dados` na primeira execução.
-* Os dados são persistidos localmente em formato JSON.
+Leitura e escrita de JSON
+
+readline para interatividade
+
+Organização modular de código em arquivos separados
+
+---
+ 
+📄 Exemplo de Uso
+Gerenciador de Tarefas
+1 - Adicionar Tarefa
+2 - Listar Tarefas
+3 - Deletar Tarefa
+4 - Alterar Status Tarefa
+5 - Pesquisar Tarefa por Palavra
+0 - Sair
+
+---
 
 👨‍💻 Autor
 Nome: Gabriel da Costa Silveira
@@ -76,4 +83,5 @@ Curso: Engenharia de Computação
 Email: gabriel.costasilveira@alu.ufc.br
 
 ---
+
 
