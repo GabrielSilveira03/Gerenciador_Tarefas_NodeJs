@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1746487501625,
+    "dataCriacao": "05/05/2025, 20:25:01",
+    "status": "Concluída",
+    "nome": "Seminário Tec Web",
+    "descricao": "Fazer o que foi pedido e apresentar no dia proposto",
+    "prazo": "3 dias"
+  },
+  {
+    "id": 1746487560795,
+    "dataCriacao": "05/05/2025, 20:26:00",
+    "status": "Pendente",
+    "nome": "Lista Circuitos",
+    "descricao": "Fazer questões da lista proposta pelo professor",
+    "prazo": "5 dias"
+  },
+  {
+    "id": 1746487644007,
+    "dataCriacao": "05/05/2025, 20:27:24",
+    "status": "Pendente",
+    "nome": "Relatório Prática Eletrônica",
+    "descricao": "Preencher e enviar relatório da prática da última semana",
+    "prazo": "7 dias"
+  },
+  {
+    "id": 1746488013621,
+    "dataCriacao": "05/05/2025, 20:33:33",
+    "status": "Em Andamento",
+    "nome": "Proposta Inicial Tec Web",
+    "descricao": "Entregar proposta sobre projeto em conjunto com sistemas embarcados",
+    "prazo": "4 dias"
+  }
+]
